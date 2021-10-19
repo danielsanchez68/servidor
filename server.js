@@ -12,6 +12,7 @@ class Server {
         this.oAuthStr = 'OAuth';
         this.serverStr = 'Server-to-Server';
         this.searchStr = 'Search';
+        this.test = true;
         this.userStr = 'User';
         this.state = {
             authType: '', // || 'OAuth' || 'Server-to-Server'
