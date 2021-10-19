@@ -14,11 +14,11 @@ class Server {
         this.searchStr = 'Search';
         this.test = true;
         this.userStr = 'User';
-        this.test = true;
+        this.test2 = true;
         this.state = {
             authType: '', // || 'OAuth' || 'Server-to-Server'
             authTarget: this.searchStr, // || 'User'
-            test : true,
+            test2 : true,
             clientId: process.env.GH_CLIENT_ID,
             oAuthToken: localStorage.getItem('oauth'),
             oAuthState: String(Math.random() * 1000000),
